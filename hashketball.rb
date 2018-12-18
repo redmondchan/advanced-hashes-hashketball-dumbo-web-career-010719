@@ -99,8 +99,8 @@ def big_shoe_rebounds
   rebound
 end
 
-def most_points_scored 
-  highest_score = 0 
+def most_points_scored
+  highest_score = 0
   player = ""
   game_hash.each do |location, team_data|
     team_data[:players].each do |name, stats|
